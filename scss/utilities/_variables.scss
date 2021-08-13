@@ -1,0 +1,15 @@
+$paragraphs: #777;
+$primary: #58e1c1;
+$secondary: #51ddfc;
+$theme-col-1: #927bc1;
+$theme-col-2: #fd7856;
+$error: #e4757a;
+$info: #927bc1;
+$success: #63cc82;
+$warning:#fd7856;
+
+@for $i from 1 through 12 {
+  .col-#{$i} {
+    background-color: adjust-hue(#58e1c1, $i * 20) ;
+  }
+}
