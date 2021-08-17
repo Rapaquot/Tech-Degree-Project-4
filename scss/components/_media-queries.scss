@@ -2,15 +2,11 @@
 
 .container {
   max-width: 1400px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  @include media-queries;
 }
 
 .centered {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
+  @include media-queries;
 }
 
 .row {
